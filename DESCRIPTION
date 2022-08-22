@@ -1,6 +1,6 @@
 Package: ggfx
 Title: Pixel Filters for 'ggplot2' and 'grid'
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     c(person(given = "Thomas Lin",
              family = "Pedersen",
@@ -17,16 +17,16 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Imports: magick (>= 2.7.1), ragg, grid, ggplot2, grDevices, gtable,
         rlang
-RoxygenNote: 7.1.1.9001
+RoxygenNote: 7.2.1
 URL: https://ggfx.data-imaginist.com, https://github.com/thomasp85/ggfx
 BugReports: https://github.com/thomasp85/ggfx/issues
 Suggests: covr, knitr, rmarkdown, farver (>= 2.1.0)
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-03-29 18:40:29 UTC; thomas
+Packaged: 2022-08-22 07:41:01 UTC; thomas
 Author: Thomas Lin Pedersen [aut, cre]
     (<https://orcid.org/0000-0002-5147-4711>),
   RStudio [cph, fnd]
 Maintainer: Thomas Lin Pedersen <thomasp85@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-03-31 09:20:02 UTC
+Date/Publication: 2022-08-22 08:00:06 UTC

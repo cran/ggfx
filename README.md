@@ -8,8 +8,8 @@
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![Codecov test
-coverage](https://codecov.io/gh/thomasp85/ggfx/branch/master/graph/badge.svg)](https://codecov.io/gh/thomasp85/ggfx?branch=master)
-[![R-CMD-check](https://github.com/thomasp85/ggfx/workflows/R-CMD-check/badge.svg)](https://github.com/thomasp85/ggfx/actions)
+coverage](https://codecov.io/gh/thomasp85/ggfx/branch/main/graph/badge.svg)](https://app.codecov.io/gh/thomasp85/ggfx?branch=main)
+[![R-CMD-check](https://github.com/thomasp85/ggfx/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/thomasp85/ggfx/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 ggfx is a (currently experimantal) package that allows the use of
@@ -17,9 +17,9 @@ various filters and shaders on ggplot2 layers.
 
 ## Installation
 
-ggfx is not on CRAN yet (but will probably at some point). In the mean
-time, if you are craving for that sweet sweet blur, you can install it
-from github:
+You can install ggfx from CRAN in the usual manner
+(`install.packages('ggfx')`) or you can grab the development version
+directly from github using the devtools package:
 
 ``` r
 # install.packages('devtools')
