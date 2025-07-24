@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 library(ggfx)
 library(ggplot2)
 
-## ---- message=FALSE-----------------------------------------------------------
+## ----message=FALSE------------------------------------------------------------
 ggplot(mtcars, aes(x = mpg, y = disp)) +
   with_blur(
     geom_point(),
